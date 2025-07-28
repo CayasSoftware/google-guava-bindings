@@ -91,17 +91,12 @@
   <remove-node path="/api/package[@name='com.google.common.graph']/class[@name='ImmutableNetwork']" />
   <remove-node path="/api/package[@name='com.google.common.graph']/class[@name='ImmutableValueGraph']" />
 
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractExecutionThreadService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractIdleService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractListeningExecutorService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractScheduledService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingBlockingQueue']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingExecutorService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingListeningExecutorService']" />
   
   <!-- Fixes in combination with Addition class -->
   <!-- Fix CS1503 -->
   <!-- Fix CS0266 -->
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/interface[@name='ListeningExecutorService']"/>
+  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractListeningExecutorService']" />
 
 </metadata>
