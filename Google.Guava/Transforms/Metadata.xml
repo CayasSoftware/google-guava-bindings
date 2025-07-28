@@ -10,6 +10,7 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingObject']/method[@name='delegate' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingCollection']/method[@name='delegate' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingIterator']/method[@name='delegate' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingFuture']/method[@name='delegate' and count(parameter)=0]" />
 
   <!-- Fix CS0508 -->
   
@@ -97,8 +98,6 @@
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractScheduledService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingBlockingQueue']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingExecutorService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingFuture']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingListenableFuture']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingListeningExecutorService']" />
   
   <!-- Fixes in combination with Addition class -->
