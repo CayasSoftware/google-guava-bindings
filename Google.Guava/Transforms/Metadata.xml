@@ -90,8 +90,6 @@
   <remove-node path="/api/package[@name='com.google.common.graph']/class[@name='ImmutableGraph']" />
   <remove-node path="/api/package[@name='com.google.common.graph']/class[@name='ImmutableNetwork']" />
   <remove-node path="/api/package[@name='com.google.common.graph']/class[@name='ImmutableValueGraph']" />
-
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingBlockingQueue']" />
   
   <!-- Fixes in combination with Addition class -->
   <!-- Fix CS1503 -->
