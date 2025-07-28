@@ -94,7 +94,6 @@
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractExecutionThreadService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractIdleService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractListeningExecutorService']" />
-  <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='AbstractScheduledService']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingBlockingQueue']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingExecutorService']" />
