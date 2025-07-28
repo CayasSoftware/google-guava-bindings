@@ -101,9 +101,6 @@
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingListenableFuture']" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingListeningExecutorService']" />
   
-  <remove-node path="/api/package[@name='com.google.common.reflect']/class[@name='ImmutableTypeToInstanceMap']" />
-  <remove-node path="/api/package[@name='com.google.common.reflect']/class[@name='TypeToken']" />
-  
   <!-- Fixes in combination with Addition class -->
   <!-- Fix CS1503 -->
   <!-- Fix CS0266 -->
