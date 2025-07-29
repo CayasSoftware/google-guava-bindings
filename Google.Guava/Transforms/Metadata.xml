@@ -12,6 +12,7 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingIterator']/method[@name='delegate' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.google.common.util.concurrent']/class[@name='ForwardingFuture']/method[@name='delegate' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='Sets.SetView']/method[@name='iterator' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='MultimapBuilder']/method[@name='build' and count(parameter)=0]" />
 
   <!-- Fix CS0508 -->
   
@@ -77,7 +78,6 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='LinkedHashMultiset']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='LinkedListMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='Maps']" />
-  <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='MultimapBuilder']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeBasedTable']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeMultiset']" />
