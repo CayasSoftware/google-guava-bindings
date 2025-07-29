@@ -75,7 +75,6 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashBasedTable']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashMultiset']" />
-  <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ImmutableBiMap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ImmutableClassToInstanceMap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ImmutableCollection']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ImmutableListMultimap']" />
