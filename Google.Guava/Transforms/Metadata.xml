@@ -78,7 +78,6 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='LinkedListMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='Maps']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='MultimapBuilder']" />
-  <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='MutableClassToInstanceMap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeBasedTable']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='TreeMultiset']" />
