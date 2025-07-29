@@ -28,6 +28,9 @@
   <attr path="/api/package[@name='com.google.common.collect']/class[@name='Maps']/method[@name='transformEntries' and count(parameter)=2 and parameter[1][@type='java.util.SortedMap&lt;K, V1&gt;'] and parameter[2][@type='com.google.common.collect.Maps.EntryTransformer&lt;? super K, ? super V1, V2&gt;']]" name="managedName">TransformEntriesAsSortedMap</attr>
   <attr path="/api/package[@name='com.google.common.collect']/class[@name='Maps']/method[@name='transformValues' and count(parameter)=2 and parameter[1][@type='java.util.SortedMap&lt;K, V1&gt;'] and parameter[2][@type='com.google.common.base.Function&lt;? super V1, V2&gt;']]" name="managedName">TransformValuesAsSortedMap</attr>
     
+  <!-- Fix CS0508 -->
+  <attr path="/api/package[@name='com.google.common.collect']/class[@name='HashBiMap']/method[@name='entrySet' and count(parameter)=0]" name="return">java.util.Set</attr>
+  
   
   <!-- Fix CS0738 -->
   <attr path="/api/package[@name='com.google.common.util.concurrent']/interface[@name='ListeningExecutorService']/method[@name='submit' and count(parameter)=1 and parameter[1][@type='java.lang.Runnable']]" name="managedReturn">Java.Util.Concurrent.IFuture</attr>
@@ -70,7 +73,6 @@
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingSortedSetMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ForwardingTable']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashBasedTable']" />
-  <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashBiMap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashMultimap']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='HashMultiset']" />
   <remove-node path="/api/package[@name='com.google.common.collect']/class[@name='ImmutableBiMap']" />
